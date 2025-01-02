@@ -1,0 +1,41 @@
+body {
+  background-color: beige;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+div {
+  background-color: rgb(195, 238, 181);
+  padding: 30px;
+  width: 300px;
+  border-radius: 8px;
+  border: solid olive;
+}
+h2 {
+  color: teal;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  margin-bottom: 15px;
+  padding: 10px;
+
+  border-radius: 9px;
+  border: solid olive;
+}
+button {
+  padding: 10px;
+  color: darkgreen;
+  background-color: rgb(148, 229, 218);
+  font-weight: bold;
+}
